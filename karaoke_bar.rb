@@ -58,6 +58,7 @@ class KaraokeBar
   def customer_buys_room(guest)
     guest.buy_room(guest.wallet, @room_cost,)
     add_money_to_till(@room_cost)
+    return guest.wallet
   end
 
 end

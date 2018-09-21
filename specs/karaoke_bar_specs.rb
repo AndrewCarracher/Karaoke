@@ -46,10 +46,10 @@ class TestKaraokeBar < MiniTest::Test
   # def test_add_money()
   #   assert_equal(1500, @glam_songs.add_money_to_till(500))
   # end
-
-  def test_remove_money()
-    assert_equal(500, @glam_songs.add_money_to_till(-500))
-  end
+  #
+  # def test_remove_money()
+  #   assert_equal(500, @glam_songs.add_money_to_till(-500))
+  # end
 
   def test_customer_can_buy_room()
     assert_equal(25, @glam_songs.customer_buys_room(@guest_1))
