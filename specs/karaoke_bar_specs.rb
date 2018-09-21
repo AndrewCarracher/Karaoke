@@ -10,4 +10,24 @@ class KaraokeBar < MiniTest::Test
 
   end
 
+  def test_check_in_guests()
+
+  end
+
+  def test_check_out_guests()
+
+  end
+
+  def test_count_money()
+
+  end
+
+  def test_add_money()
+
+  end
+
+  def test_remove_money()
+
+  end
+
 end
